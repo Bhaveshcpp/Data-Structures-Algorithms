@@ -1,32 +1,19 @@
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& arr) {
-  
-
-      int zeros = 0, idx = -1;
-    int prod = 1;
-
-    // Count zeros and track the index of the zero
-    for (int i = 0; i < arr.size(); ++i) {
-        if (arr[i] == 0) {
-            zeros++;
-            idx = i;
-        } else {
-            prod *= arr[i];
-        }
-    }
-
-    vector<int> res(arr.size(), 0);
-
-    // If no zeros, calculate the product for all elements
-    if (zeros == 0) {
-        for (int i = 0; i < arr.size(); i++)
-            res[i] = prod / arr[i];
-    }
-    // If one zero, set product only at the zero's index
-    else if (zeros == 1)
-        res[idx] = prod;
-
-    return res;
+     int n=arr.size();
+     vector<int>prefprod(n),suffprod(n),res(n);
+     prefprod[0]=1;
+     for(int i=1;i<n;i++){
+        prefprod[i]=prefprod[i-1]*arr[i-1];
+     }  
+     suffprod[n-1]=1;
+     for(int i=n-2;i>=0;i--){
+        suffprod[i]=suffprod[i+1]*arr[i+1];
+     } 
+     for(int i=0;i<n;i++){
+        res[i]=prefprod[i]*suffprod[i];
+     } 
+     return res;
 }
 };
