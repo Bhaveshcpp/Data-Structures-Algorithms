@@ -7,8 +7,13 @@ public:
                 filtered += tolower(c);
             }
         }
-        string rev = filtered;
-        reverse(rev.begin(), rev.end());
-        return filtered == rev;
+        int l=0;
+        int r=filtered.size()-1;
+        while(l<r) {
+            if(filtered[l] != filtered[r]) return false;
+            l++;
+            r--; 
+    }
+    return true;
     }
 };
