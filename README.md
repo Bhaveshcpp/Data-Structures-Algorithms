@@ -59,9 +59,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0125-valid-palindrome](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0344-reverse-string) |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [3813-vowel-consonant-score](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/3813-vowel-consonant-score) |
 ## Simulation
 |  |
 | ------- |
 | [3813-vowel-consonant-score](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/3813-vowel-consonant-score) |
+## Stack
+|  |
+| ------- |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 <!---LeetCode Topics End-->
