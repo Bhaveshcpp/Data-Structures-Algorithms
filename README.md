@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0041-first-missing-positive](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0041-first-missing-positive) |
 | [0169-majority-element](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0242-valid-anagram) |
 ## Sorting
 |  |
 | ------- |
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0242-valid-anagram) |
 ## Counting
 |  |
 | ------- |
@@ -66,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0125-valid-palindrome) |
+| [0242-valid-anagram](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0344-reverse-string) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [3813-vowel-consonant-score](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/3813-vowel-consonant-score) |
