@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0041-first-missing-positive](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0041-first-missing-positive) |
+| [0049-group-anagrams](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0075-sort-colors) |
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0041-first-missing-positive](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0041-first-missing-positive) |
+| [0049-group-anagrams](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0217-contains-duplicate) |
@@ -35,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0169-majority-element) |
@@ -72,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Bhaveshcpp/Data-Structures-Algorithms/tree/master/0344-reverse-string) |
