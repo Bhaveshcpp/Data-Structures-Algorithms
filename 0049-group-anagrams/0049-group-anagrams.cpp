@@ -1,27 +1,21 @@
 class Solution {
-public:// O(n*k*log(k)) Time and O(n*k) Space
+public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
-     vector<vector<string>> res;
-    unordered_map<string, int> mp;
-    for (int i = 0; i < strs.size(); i++) {
-        string s = strs[i];
-      
-        // Find the key by sorting the string
-        sort(s.begin(), s.end());
-      
-        // If key is not present in the hash map, add
-        // an empty group (vector) in the result and
-        // store the index of the group in hash map
-        if (mp.find(s) == mp.end()) {
-            mp[s] = res.size();
-             res.push_back({});
-            
+        vector<vector<string>> ans;
+        unordered_map<string, vector<string>> umap;
+
+        for (auto x : strs) {
+            string temp = x;
+            sort(temp.begin(),
+                 temp.end()); // Sort the temporary copy to create the key
+            umap[temp].push_back(
+                x); // Use the sorted key to store the original string
         }
-      
-        // Insert the string in its correct group
-        res[mp[s]].push_back(strs[i]);
+
+        for (auto x : umap) {
+            ans.push_back(x.second); // Direct push_back without creating
+                                     // another temp variable
+        }
+        return ans;
     }
-    return res;
-}
-    
 };
