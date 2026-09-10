@@ -4,19 +4,21 @@ public:
      //given s= abcabcbb//
      int n=s.length();
      int ans=0;
-     for(int i=0;i<n;i++){
-        int hash[256]={0};
-        int len=1;
-        for(int j=i;j<n;j++){
-              if(hash[s[j]]==0){
-                hash[s[j]]=1;
-                len=j-i+1;
-            }
-              else break;
+     int left=0;
+     int right=0;
+     int hash[256]={0};
+     while(right<n){
+        if(hash[s[right]] == 0){
+            hash[s[right]]=1;
+            ans=max(ans,right-left+1);
+            right++;
         }
-         ans=max(ans,len);
-        }
-        return ans;
+        else{
+        hash[s[left]]=0;
+        left++;
+        
+       }
      }
-     
+      return ans;
+     } 
 };
