@@ -7,21 +7,19 @@ public:
         int right=0;
         int maxfreq=0;
         int maxLen=0;
-        for(int right=0;right<n;right++){
+        while(right<n){
            hash[s[right]-'A']++;
            
            maxfreq=max(maxfreq,hash[s[right]-'A']);
-           int size=right-left+1;
            
-           int replace=size-maxfreq;
-           while(replace > k ){
+           int replace=(right-left+1)-maxfreq;
+           if(replace > k ){
             hash[s[left]-'A']--;
             left++;//so here window size decrrase so for that we have to upadate the size //
-
-            size=right-left+1;
-            replace=size-maxfreq;
            }
-         maxLen = max(maxLen, size);
+        
+         maxLen = max(maxLen, right-left+1);
+          right++;
         }
 return maxLen;
     }
