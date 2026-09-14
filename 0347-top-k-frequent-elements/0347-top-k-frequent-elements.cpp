@@ -20,19 +20,18 @@ public:
         vector<int> ans;
 
         // Start from highest frequency
-        for (int i = n; i >= 1; i--) {
+        int i = bucket.size() - 1;
 
-            for (int x : bucket[i]) {
+while (i >= 1) {
+    for (int x : bucket[i]) {
+        ans.push_back(x);
 
-                ans.push_back(x);
-
-                if (ans.size() == k) {
-                    return ans;
-                }
-            }
-        }
-
-        return ans;
+        if (ans.size() == k)
+            return ans;
     }
+    i--;
+   }
+   return ans;
+ }
 };
    
