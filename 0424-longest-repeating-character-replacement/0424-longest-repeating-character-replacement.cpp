@@ -1,28 +1,28 @@
 class Solution {
 public:
     int characterReplacement(string s, int k) {
-        int n=s.length();
+        int n=s.size();
+        int hash[26]={0};
         int left=0;
         int right=0;
         int maxfreq=0;
-        int freq[26]={0};
-        int ans=0;
-        while(right<n){
-            freq[s[right]-'A']++;
+        int maxLen=0;
+        for(int right=0;right<n;right++){
+           hash[s[right]-'A']++;
+           
+           maxfreq=max(maxfreq,hash[s[right]-'A']);
+           int size=right-left+1;
+           
+           int replace=size-maxfreq;
+           while(replace > k ){
+            hash[s[left]-'A']--;
+            left++;//so here window size decrrase so for that we have to upadate the size //
 
-            maxfreq=max(maxfreq,freq[s[right]-'A']);
-
-            int changes = (right - left + 1) - maxfreq;
-
-            while(changes >k){
-                freq[s[left]-'A']--;
-                left++;
-                changes = (right - left + 1) - maxfreq;
-            }
-
-            ans=max(ans,right-left+1);
-            right++;
-            }
-            return ans;
+            size=right-left+1;
+            replace=size-maxfreq;
+           }
+         maxLen = max(maxLen, size);
+        }
+return maxLen;
     }
 };
