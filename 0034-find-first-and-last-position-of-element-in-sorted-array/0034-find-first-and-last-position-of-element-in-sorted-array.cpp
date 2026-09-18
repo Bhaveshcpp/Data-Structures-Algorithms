@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
          int n=nums.size();
-         vector<int>ans;
+        
          int left=0;
          int right=n-1;
          int first=-1,last=-1;
@@ -16,7 +16,7 @@ public:
             else if(nums[mid]<target) left= mid+1;
             else right=mid-1;
          }
-         ans.push_back(first);
+      
 
 
 
@@ -32,7 +32,7 @@ public:
             else if(nums[mid]<target) left= mid+1;
             else right=mid-1;
          }
-         ans.push_back(last);
-         return ans;
+         
+         return {first,last};
     }
 };
